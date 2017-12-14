@@ -1,0 +1,72 @@
+/*Vista splash*/
+#splash{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(#52005F, #DE0A88);
+  z-index: 100;
+  text-align: center;
+}
+
+.log-splash{
+  max-width: 40%;
+  position: relative;
+  top: 40%;
+}
+
+.home{
+  background-image: url(../img/street.jpg);
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: 50% 10%;
+  text-align: center;
+}
+
+.logwhite-home{
+  max-width: 20%;
+  padding-top: 2%;
+}
+
+.log-home{
+  max-width: 100%;
+  padding-top: 33%;
+  padding-bottom: 33%;
+}
+
+.button1, .button2{
+  padding: 8%;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+.button1:hover, .button2:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.btn-home{
+  padding-bottom: 10%;
+}
+
+.btn-next{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.next{
+  border: none;
+  background-color: #A90866;
+  color: white;
+  padding: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.flag-input{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
